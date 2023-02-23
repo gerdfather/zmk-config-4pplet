@@ -39,9 +39,9 @@
 // | Rotary | (<-- Rotary switch) ----------------------------------------------------------- 
 			bindings = <
 	&reset 			&kp F1			&kp F2 	 		&kp F3			&kp F4			&kp F5		 &kp F6	&kp F7		&kp F8		&kp F9	&kp F10		&kp F11	&kp F12	&trans	&kp DEL
-	&bt BT_CLR		&bt BT_SEL 0	&bt BT_SEL 1   	&bt BT_SEL 2  	&bt BT_SEL 3   	&bt BT_SEL 4 &trans &kp HOME	&kp HOME	&kp END	&kp END     &kp DEL	&trans	&trans	
-	&bootloader 	&rgb_ug RGB_TOG &rgb_ug RGB_BRI	&rgb_ug RGB_EFR	&trans		 	&trans		 &trans	&kp LEFT	&kp DOWN	&kp UP 	&kp RIGHT   &trans 	&trans	&trans &trans
-	&trans 			&rgb_ug RGB_SAD &rgb_ug RGB_SAI &rgb_ug	RGB_HUD	&trans		 	&trans		 &trans	&kp HOME	&kp HOME	&kp END	&kp END     &kp DEL	&trans 	&trans
+	&bt BT_CLR		&bt BT_SEL 0	&bt BT_SEL 1   	&bt BT_SEL 2  	&bt BT_SEL 3   	&bt BT_SEL 4 &kp HOME &kp HOME	&kp HOME	&kp HOME	&kp HOME     &trans	&kp DEL	&trans	
+	&bootloader 	&rgb_ug RGB_TOG &rgb_ug RGB_BRI	&rgb_ug RGB_EFR	&trans		 	&trans		 &kp LEFT	&kp DOWN	&kp UP	&kp RIGHT 	&trans   &kp DEL 	&trans	&trans &trans
+	&trans 			&rgb_ug RGB_SAD &rgb_ug RGB_SAI &rgb_ug	RGB_HUD	&trans		 	&trans		 &kp END	&kp END	&kp END	&kp END	&kp END     &trans	&trans 	&trans
 	&trans 			&trans   	  	&trans             								&trans		 &trans	&trans  				&trans  &trans	&trans	&trans		
 	&kp C_PP
 			>;
